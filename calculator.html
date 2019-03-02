@@ -7,6 +7,9 @@ function cube() {
 function square() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value, 2);}
+function inv() {
+  var num = document.getElementById("n1");
+  num.value = 1/num.value;}
 
 function sine() {
 	var num = document.getElementById("n1");
@@ -24,11 +27,11 @@ function quadruple() {
   <h1>Calculadora de Luis De Pablo Beltran </h1>
   Number:  <input type="text" id="n1">
   <p>
-
-    <button onclick="cube()"> x^3 </button>  
-	<button onclick="sine()"> sin(x) </button>  
-  <button onclick="quadruple()"> x^4 </button>
-  <button onclick="square()"> x^2 </button> </p>
+      <button onclick="sine()"> sin(x) </button>  
+      <button onclick="quadruple()"> x^4 </button>
+    <button onclick="square()"> x^2 </button>
+    <button onclick="cube()"> x^3 </button>
+    <button onclick="inv()"> 1/x </button>  </p>
 	
 
 </body>
